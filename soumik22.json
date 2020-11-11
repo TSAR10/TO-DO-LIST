@@ -1,0 +1,10 @@
+[
+    "test1",
+    "test 2",
+    "<h1>Test for html injection<\/h1>",
+    "<img src = alert(1)>",
+    "<img src=\"https:\/\/i.imgflip.com\/2xc9z0.png\">Image injection test<\/img>",
+    "txtUserId = getRequestString(\"UserId\");\r\ntxtSQL = \"SELECT * FROM Users WHERE UserId = \" + txtUserId;",
+    "alert(location.hostname)",
+    "$('#test').on('click', () => {\r\n    alert('\ud83d\udd25');\r\n})"
+]
